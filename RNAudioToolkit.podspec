@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.license             = package['license']
   s.author              = package['author']
   s.source              = { :git => 'https://github.com/CapitanRedBeard/react-native-audio-toolkit.git', :tag => "v#{s.version}" }
-  s.default_subspec     = 'Core'
-  s.requires_arc        = true
+  s.requires_arc        = false
   s.platform            = :ios, "7.0"
   
   s.dependency 'React/Core'
