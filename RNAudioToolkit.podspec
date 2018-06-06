@@ -15,9 +15,6 @@ Pod::Spec.new do |s|
   s.platform            = :ios, "7.0"
   
   s.dependency 'React/Core'
-  
-  s.subspec 'Core' do |ss|
-    ss.source_files     = "ios/ReactNativeAudioToolkit/*.{h,m}"
-  end
+  s.source_files        = "ios/ReactNativeAudioToolkit/*.{h,m}"
 
 end
